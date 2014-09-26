@@ -53,7 +53,7 @@
     <room>rooms\rm_pausemenu</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41908.8832684143</constant>
+    <constant name="GM_build_date">41908.8897093056</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
