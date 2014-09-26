@@ -44,14 +44,16 @@
     <object>objects\backsavegame</object>
     <object>objects\gamename</object>
     <object>objects\obj_pause</object>
+    <object>objects\obj_controlstart</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_start</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_mapdownleft</room>
     <room>rooms\rm_pausemenu</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41908.8354553125</constant>
+    <constant name="GM_build_date">41908.9520246181</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
