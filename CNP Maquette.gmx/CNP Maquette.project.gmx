@@ -17,6 +17,7 @@
     <sprite>sprites\spr_savegame</sprite>
     <sprite>sprites\spr_backsavegame</sprite>
     <sprite>sprites\spr_gamename</sprite>
+    <sprite>sprites\spr_gamepause</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckg_menubackground</background>
@@ -43,6 +44,7 @@
     <object>objects\btn_savegame</object>
     <object>objects\backsavegame</object>
     <object>objects\gamename</object>
+    <object>objects\gamepause</object>
     <object>objects\obj_pause</object>
   </objects>
   <rooms name="rooms">
@@ -51,7 +53,7 @@
     <room>rooms\rm_pausemenu</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41908.8354553125</constant>
+    <constant name="GM_build_date">41908.8832684143</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
