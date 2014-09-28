@@ -4,7 +4,7 @@
   <solid>0</solid>
   <visible>0</visible>
   <depth>0</depth>
-  <persistent>-1</persistent>
+  <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
@@ -25,13 +25,44 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>paused = false;
+            <string>globalvar
+{
+    global.control_rm = rm_menu;
+    global.control_xrel = 512;
+    global.control_yrel = 352;
+    global.control_xdir = 0;
+    global.control_ydir = 0;
+}
 </string>
           </argument>
         </arguments>
       </action>
+      <action>
+        <libid>1</libid>
+        <id>301</id>
+        <kind>0</kind>
+        <userelative>-1</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_set_alarm</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>0</kind>
+            <string>50</string>
+          </argument>
+          <argument>
+            <kind>4</kind>
+            <string>0</string>
+          </argument>
+        </arguments>
+      </action>
     </event>
-    <event eventtype="3" enumb="0">
+    <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -48,15 +79,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if(keyboard_check_pressed(vk_escape)){
-    if (paused == true){
-        paused = false;
-        room_goto(global.roomcamefrom);
-    }else if(!paused){
-        paused = true;
-        room_goto(rm_pausemenu);
-    }
-}
+            <string>room_goto(global.control_rm);
 </string>
           </argument>
         </arguments>

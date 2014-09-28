@@ -18,6 +18,7 @@
     <sprite>sprites\spr_backsavegame</sprite>
     <sprite>sprites\spr_gamename</sprite>
     <sprite>sprites\spr_gamepause</sprite>
+    <sprite>sprites\temp_heros</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckg_menubackground</background>
@@ -46,14 +47,18 @@
     <object>objects\gamename</object>
     <object>objects\gamepause</object>
     <object>objects\obj_pause</object>
+    <object>objects\obj_herosmap</object>
+    <object>objects\obj_startcontrol</object>
+    <object>objects\obj_controlmap</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_start</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_mapdownleft</room>
     <room>rooms\rm_pausemenu</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41908.8832684143</constant>
+    <constant name="GM_build_date">41910.5455538542</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
