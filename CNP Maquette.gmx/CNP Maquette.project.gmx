@@ -28,7 +28,9 @@
     <background>background\bckg_mapupright</background>
     <background>background\bckg_worldmap</background>
   </backgrounds>
-  <paths name="paths"/>
+  <paths name="paths">
+    <path>paths\path_test</path>
+  </paths>
   <scripts name="scripts">
     <script>scripts\scr_randomrange.gml</script>
     <script>scripts\scr_roomcamefrom.gml</script>
@@ -58,7 +60,7 @@
     <room>rooms\rm_pausemenu</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41910.5455538542</constant>
+    <constant name="GM_build_date">41910.7708912037</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
