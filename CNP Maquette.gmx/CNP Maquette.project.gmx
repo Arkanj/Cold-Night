@@ -52,15 +52,17 @@
     <object>objects\obj_herosmap</object>
     <object>objects\obj_startcontrol</object>
     <object>objects\obj_controlmap</object>
+    <object>objects\obj_controlcbt</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
     <room>rooms\rm_menu</room>
     <room>rooms\rm_mapdownleft</room>
     <room>rooms\rm_pausemenu</room>
+    <room>rooms\rm_cbt</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41910.7708912037</constant>
+    <constant name="GM_build_date">41917.6804869444</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
