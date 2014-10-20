@@ -34,6 +34,7 @@
   <scripts name="scripts">
     <script>scripts\scr_randomrange.gml</script>
     <script>scripts\scr_roomcamefrom.gml</script>
+    <script>scripts\scr_path1.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\btn_newgame</object>
@@ -62,7 +63,7 @@
     <room>rooms\rm_cbt</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41917.6804869444</constant>
+    <constant name="GM_build_date">41923.0930795602</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>

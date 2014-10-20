@@ -30,8 +30,10 @@
     global.control_rm = rm_menu;
     global.control_xrel = 512;
     global.control_yrel = 352;
-    global.control_xdir = 0;
-    global.control_ydir = 0;
+    global.control_xdir = 512;
+    global.control_ydir = 352;
+    global.control_path = 0;
+    global.control_pathstep = 0;
 }
 </string>
           </argument>
