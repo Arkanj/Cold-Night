@@ -19,6 +19,9 @@
     <sprite>sprites\spr_gamename</sprite>
     <sprite>sprites\spr_gamepause</sprite>
     <sprite>sprites\temp_heros</sprite>
+    <sprite>sprites\spr_heroscbt</sprite>
+    <sprite>sprites\spr_mobcbt</sprite>
+    <sprite>sprites\spr_temptest</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bckg_menubackground</background>
@@ -27,6 +30,7 @@
     <background>background\bckg_mapupleft</background>
     <background>background\bckg_mapupright</background>
     <background>background\bckg_worldmap</background>
+    <background>background\bckg_cbt</background>
   </backgrounds>
   <paths name="paths">
     <path>paths\path_test</path>
@@ -35,6 +39,8 @@
     <script>scripts\scr_randomrange.gml</script>
     <script>scripts\scr_roomcamefrom.gml</script>
     <script>scripts\scr_path1.gml</script>
+    <script>scripts\scr_turncbt.gml</script>
+    <script>scripts\scr_cbtend.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\btn_newgame</object>
@@ -54,6 +60,8 @@
     <object>objects\obj_startcontrol</object>
     <object>objects\obj_controlmap</object>
     <object>objects\obj_controlcbt</object>
+    <object>objects\obj_heros</object>
+    <object>objects\obj_mob</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
@@ -63,7 +71,7 @@
     <room>rooms\rm_cbt</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41923.0930795602</constant>
+    <constant name="GM_build_date">41933.499689537</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>

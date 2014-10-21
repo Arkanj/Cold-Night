@@ -2,39 +2,13 @@
 <object>
   <spriteName>&lt;undefined&gt;</spriteName>
   <solid>0</solid>
-  <visible>0</visible>
+  <visible>-1</visible>
   <depth>0</depth>
   <persistent>0</persistent>
   <parentName>&lt;undefined&gt;</parentName>
   <maskName>&lt;undefined&gt;</maskName>
   <events>
     <event eventtype="0" enumb="0">
-      <action>
-        <libid>1</libid>
-        <id>301</id>
-        <kind>0</kind>
-        <userelative>-1</userelative>
-        <isquestion>0</isquestion>
-        <useapplyto>-1</useapplyto>
-        <exetype>1</exetype>
-        <functionname>action_set_alarm</functionname>
-        <codestring></codestring>
-        <whoName>self</whoName>
-        <relative>0</relative>
-        <isnot>0</isnot>
-        <arguments>
-          <argument>
-            <kind>0</kind>
-            <string>10</string>
-          </argument>
-          <argument>
-            <kind>4</kind>
-            <string>0</string>
-          </argument>
-        </arguments>
-      </action>
-    </event>
-    <event eventtype="2" enumb="0">
       <action>
         <libid>1</libid>
         <id>603</id>
@@ -51,7 +25,97 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>room_goto(global.control_rm);
+            <string>bheros[0] = instance_create(10,10,obj_heros);
+bheros[1] = instance_create(10,100,obj_heros);
+bheros[2] = instance_create(10,200,obj_heros);
+bmob[0] = instance_create(200,10,obj_mob);
+bmob[1] = instance_create(200,100,obj_mob);
+bmob[2] = instance_create(200,200,obj_mob);
+
+for (i = 0 ; i &lt; 3 ; i++)
+{
+    bheros[i].name = "Sephiroth";
+    bmob[i].name = "Godzilla";
+    bheros[i].atk = 10;
+    bmob[i].atk = 7;
+    bheros[i].def = 10;
+    bmob[i].def = 7;
+    bheros[i].hp = 100;
+    bmob[i].hp = 70;
+    bheros[i].agi = 10;
+    bmob[i].agi = 7;
+    bturn[i] = 0;
+}
+scr_turncbt(3,3);
+bturn[4].sprite_index = spr_temptest;
+</string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="3" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>601</id>
+        <kind>0</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>1</exetype>
+        <functionname>action_execute_script</functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>9</kind>
+            <script>scr_cbtend</script>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+          <argument>
+            <kind>0</kind>
+            <string></string>
+          </argument>
+        </arguments>
+      </action>
+    </event>
+    <event eventtype="8" enumb="0">
+      <action>
+        <libid>1</libid>
+        <id>603</id>
+        <kind>7</kind>
+        <userelative>0</userelative>
+        <isquestion>0</isquestion>
+        <useapplyto>-1</useapplyto>
+        <exetype>2</exetype>
+        <functionname></functionname>
+        <codestring></codestring>
+        <whoName>self</whoName>
+        <relative>0</relative>
+        <isnot>0</isnot>
+        <arguments>
+          <argument>
+            <kind>1</kind>
+            <string>for (i=0;i&lt;6;i++)
+{
+    draw_text(bturn[i].x,bturn[i].y,string(i));
+}
 </string>
           </argument>
         </arguments>
