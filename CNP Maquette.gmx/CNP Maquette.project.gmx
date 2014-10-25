@@ -41,6 +41,8 @@
     <script>scripts\scr_path1.gml</script>
     <script>scripts\scr_turncbt.gml</script>
     <script>scripts\scr_cbtend.gml</script>
+    <script>scripts\scr_attaqueheros.gml</script>
+    <script>scripts\scr_attaquemob.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\btn_newgame</object>
@@ -62,6 +64,7 @@
     <object>objects\obj_controlcbt</object>
     <object>objects\obj_heros</object>
     <object>objects\obj_mob</object>
+    <object>objects\obj_combat</object>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
@@ -71,7 +74,7 @@
     <room>rooms\rm_cbt</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41933.499689537</constant>
+    <constant name="GM_build_date">41936.6433318171</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>

@@ -1,8 +1,8 @@
-if (instance_number(obj_mob) == 0)
+if (hpheros == 0)
 {
-    // VICTORY
+    room_goto(rm_menu); //GAME OVER
 }
-else if (instance_number(obj_heros) == 0)
+else if (hpmob == 0)
 {
-    // GAME OVER
+    room_goto(global.control_rm); // VICTOIRE
 }
