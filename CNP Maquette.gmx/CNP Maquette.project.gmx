@@ -19,6 +19,20 @@
     <sprite>sprites\spr_gamename</sprite>
     <sprite>sprites\spr_gamepause</sprite>
     <sprite>sprites\temp_heros</sprite>
+    <sprites name="Loot">
+      <sprite>sprites\spr_arc</sprite>
+      <sprite>sprites\spr_dague</sprite>
+      <sprite>sprites\spr_epee</sprite>
+      <sprite>sprites\spr_bouclier</sprite>
+      <sprite>sprites\spr_hache</sprite>
+      <sprite>sprites\spr_fleches</sprite>
+      <sprite>sprites\spr_healpotion</sprite>
+      <sprite>sprites\spr_manapotion</sprite>
+    </sprites>
+    <sprites name="Inventory">
+      <sprite>sprites\spr_slot</sprite>
+      <sprite>sprites\spr_null</sprite>
+    </sprites>
   </sprites>
   <backgrounds name="background">
     <background>background\bckg_menubackground</background>
@@ -54,6 +68,16 @@
     <object>objects\obj_startcontrol</object>
     <object>objects\obj_controlmap</object>
     <object>objects\obj_controlcbt</object>
+    <objects name="Inventory">
+      <object>objects\obj_slot</object>
+      <object>objects\obj_controlinventory</object>
+      <object>objects\obj_slot0</object>
+      <object>objects\obj_slot1</object>
+      <object>objects\obj_slot2</object>
+      <object>objects\obj_slot3</object>
+      <object>objects\obj_slot4</object>
+      <object>objects\obj_slottemp</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\rm_start</room>
@@ -61,9 +85,10 @@
     <room>rooms\rm_mapdownleft</room>
     <room>rooms\rm_pausemenu</room>
     <room>rooms\rm_cbt</room>
+    <room>rooms\rm_inventory</room>
   </rooms>
   <constants number="2">
-    <constant name="GM_build_date">41923.0930795602</constant>
+    <constant name="GM_build_date">41936.6033681597</constant>
     <constant name="GM_version">'1.0.0.0'</constant>
   </constants>
   <help>
