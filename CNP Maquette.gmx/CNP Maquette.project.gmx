@@ -43,6 +43,7 @@
     <script>scripts\scr_cbtend.gml</script>
     <script>scripts\scr_attaqueheros.gml</script>
     <script>scripts\scr_attaquemob.gml</script>
+    <script>scripts\scr_checkhp.gml</script>
   </scripts>
   <objects name="objects">
     <object>objects\btn_newgame</object>

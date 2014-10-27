@@ -51,7 +51,8 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>obj_controlcbt.cible = self.ind;
+            <string>//Si competence de heros d'attaque
+obj_controlcbt.cible = self.ind;
 </string>
           </argument>
         </arguments>
